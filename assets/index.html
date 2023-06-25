@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facility Booking</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Facility Booking</h1>
+  <form id="booking-form">
+    <label for="facility">Facility:</label>
+    <select id="facility" required>
+      <option value="Clubhouse">Clubhouse</option>
+      <option value="Tennis Court">Tennis Court</option>
+    </select>
+    <br>
+    <label for="date">Date:</label>
+    <input type="date" id="date" required>
+    <br>
+    <label for="start-time">Start Time:</label>
+    <input type="time" id="start-time" required>
+    <br>
+    <label for="end-time">End Time:</label>
+    <input type="time" id="end-time" required>
+    <br>
+    <button type="submit">Book Facility</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>
